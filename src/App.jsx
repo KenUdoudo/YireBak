@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router> 
-    <InventoryProvider>
+    <InventoryProvider className="w-full flex flex-row">
       <Sidebar />
       {/*<div className="content">
           <Routes>
