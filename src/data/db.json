@@ -1,0 +1,120 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Mouse",
+      "price": 2500,
+      "type": "Accessories",
+      "image": "https://via.placeholder.com/150?text=Wireless+Mouse"
+    },
+    {
+      "id": 2,
+      "name": "Mechanical Keyboard",
+      "price": 15000,
+      "type": "Accessories",
+      "image": "https://via.placeholder.com/150?text=Mechanical+Keyboard"
+    },
+    {
+      "id": 3,
+      "name": "Laptop 15\"",
+      "price": 120000,
+      "type": "Computers",
+      "image": "https://via.placeholder.com/150?text=Laptop+15"
+    },
+    {
+      "id": 4,
+      "name": "USB-C Hub",
+      "price": 7000,
+      "type": "Accessories",
+      "image": "https://via.placeholder.com/150?text=USB-C+Hub"
+    },
+    {
+      "id": 5,
+      "name": "Gaming Headset",
+      "price": 9000,
+      "type": "Audio",
+      "image": "https://via.placeholder.com/150?text=Gaming+Headset"
+    }
+  ],
+  "stock": [
+    { "productId": 1, "amount": 50 },
+    { "productId": 2, "amount": 30 },
+    { "productId": 3, "amount": 20 },
+    { "productId": 4, "amount": 75 },
+    { "productId": 5, "amount": 40 }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userName": "John Doe",
+      "address": "123 Main St, Lagos",
+      "date": "2026-02-25",
+      "type": "Laptop 15\"",
+      "status": "processing"
+    },
+    {
+      "id": 2,
+      "userName": "Jane Smith",
+      "address": "456 Broad Ave, Abuja",
+      "date": "2026-02-24",
+      "type": "Wireless Mouse",
+      "status": "completed"
+    },
+    {
+      "id": 3,
+      "userName": "Mike Johnson",
+      "address": "789 Market Rd, Port Harcourt",
+      "date": "2026-02-23",
+      "type": "Mechanical Keyboard",
+      "status": "on hold"
+    },
+    {
+      "id": 4,
+      "userName": "Sarah Lee",
+      "address": "321 Ocean Dr, Lagos",
+      "date": "2026-02-22",
+      "type": "Gaming Headset",
+      "status": "rejected"
+    },
+    {
+      "id": 5,
+      "userName": "David Kim",
+      "address": "654 Sunrise Blvd, Abuja",
+      "date": "2026-02-21",
+      "type": "USB-C Hub",
+      "status": "completed"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "profileImage": "https://via.placeholder.com/100?text=JD"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "profileImage": "https://via.placeholder.com/100?text=JS"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "email": "mikej@example.com",
+      "profileImage": "https://via.placeholder.com/100?text=MJ"
+    },
+    {
+      "id": 4,
+      "name": "Sarah Lee",
+      "email": "sarahlee@example.com",
+      "profileImage": "https://via.placeholder.com/100?text=SL"
+    },
+    {
+      "id": 5,
+      "name": "David Kim",
+      "email": "davidk@example.com",
+      "profileImage": "https://via.placeholder.com/100?text=DK"
+    }
+  ]
+}
