@@ -12,13 +12,22 @@ const Topbar = () => {
         </div>
 
         <div className="flex flex-row gap-[26px] items-center">
-            <img src={notification} alt="Notification Icon" />
-            <div >
+            <img src={notification} alt="Notification Icon" className="cursor-pointer"/>
+            <div className="flex flex-row items-center gap-[10px] cursor-pointer">
                 <img src={flag} alt="Flag Icon" />
-                <p>English</p>
+                <p className="text-[14px] text-[#202224] ml-[6px]">English</p>
+                <img src={dropdown} alt="Dropdown Icon" />
+            </div>
+            <div className="flex flex-row items-center gap-[10px] cursor-pointer">
+                <img src={profileIcon} alt="Profile Icon" />
+                <div>
+                    <p className="text-[14px] text-[#202224]">Kendo Udoudo</p>
+                    <p className="text-[12px] text-[#757575]">Admin</p>
+                </div>
                 <img src={dropdown} alt="Dropdown Icon" />
             </div>
         </div>
+        
     </div>
   );
 };
