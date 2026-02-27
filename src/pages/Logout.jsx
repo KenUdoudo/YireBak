@@ -1,7 +1,7 @@
 const Logout = () => {
     return ( 
         <div>
-           
+           heheheheh
         </div>
      );
 }

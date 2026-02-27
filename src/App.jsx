@@ -1,26 +1,43 @@
 import { InventoryProvider } from "./context/InventoryContext";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Dashboard from "./pages/Dashboard";
-
+import Logout from "./pages/Logout";
+import OrderList from "./pages/OrderList";
+import Products from "./pages/Products";
+import Sales from "./pages/Sales";
+import Settings from "./pages/Settings";
+import Users from "./pages/Users";
+import Stock from "./pages/Stock";
 import Sidebar from "./components/Sidebar";
-function App() {
- 
 
+function App() {
   return (
-    <Router> 
-    <InventoryProvider className="w-full flex flex-row">
-      <Sidebar />
-      {/*<div className="content">
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/inventory" element={<Inventory />} />
-            <Route path="/invoices" element={<Invoices />} />
-            <Route path="/sales" element={<Sales />} />
-          </Routes>
-        </div>*/}
-    </InventoryProvider>
+    <Router>
+      <InventoryProvider>
+        {/* Layout Wrapper */}
+        <div className="w-full h-screen flex">
+          
+          <Sidebar />
+
+          {/* Main Content */}
+          <div className="flex-1 p-6 bg-gray-50 overflow-y-auto">
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/order-list" element={<OrderList />} />
+              <Route path="/users" element={<Users />} />
+              <Route path="/product-stock" element={<Stock />} />
+              <Route path="/settings" element={<Settings />} />
+              <Route path="/log-out" element={<Logout />} />
+              <Route path="/sales" element={<Sales />} />
+            </Routes>
+          </div>
+
+        </div>
+      </InventoryProvider>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
