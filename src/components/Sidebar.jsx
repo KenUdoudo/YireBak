@@ -25,7 +25,7 @@ const Sidebar = () => {
     }`;
 
   return (
-    <div className="w-[20%] h-screen flex flex-col bg-white border-r">
+    <div className="w-[20%] h-screen flex flex-col bg-white">
 
       {/* Logo */}
       <div className="flex justify-center pt-[24px]">
