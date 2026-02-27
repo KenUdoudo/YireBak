@@ -1,4 +1,4 @@
-const Users = () => {
+const Stock = () => {
     return ( 
         <div>
             
@@ -6,4 +6,4 @@ const Users = () => {
      );
 }
  
-export default Users;
+export default Stock;

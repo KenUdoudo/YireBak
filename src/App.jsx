@@ -1,9 +1,7 @@
 import { InventoryProvider } from "./context/InventoryContext";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
-import Inventory from "./pages/Inventory";
-import Invoices from "./pages/Invoices";
-import Sales from "./pages/Sales";
+
 import Sidebar from "./components/Sidebar";
 function App() {
  
